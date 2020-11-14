@@ -24,10 +24,11 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Container(
       child: Container(
-        color: Colors.amber,
+        // color: Colors.amber,
         margin: EdgeInsets.all(8),
         padding: EdgeInsets.all(8),
         alignment: Alignment.center,
+        width: 100,
         child: Text("Container는 child에 다른 위젯을 선언"),
       ),
     );
