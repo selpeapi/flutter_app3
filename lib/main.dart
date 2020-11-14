@@ -26,7 +26,7 @@ class _MainPageState extends State<MainPage> {
       alignment: Alignment.center,
       child: Container(
         color: Colors.amber,
-        padding: EdgeInsets.all(100),
+        padding: EdgeInsets.only(left: 10, top: 20, right: 30, bottom: 40),
         child: Text("padding(패딩)"),
       ),
     );
