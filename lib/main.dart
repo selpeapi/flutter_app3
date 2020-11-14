@@ -24,6 +24,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Container(
       child: Container(
+        color: Colors.amber,
         child: Text("Container는 child에 다른 위젯을 선언"),
       ),
     );
