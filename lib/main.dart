@@ -25,6 +25,7 @@ class _MainPageState extends State<MainPage> {
     return Container(
       child: Container(
         color: Colors.amber,
+        margin: EdgeInsets.all(8),
         child: Text("Container는 child에 다른 위젯을 선언"),
       ),
     );
