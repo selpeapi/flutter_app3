@@ -23,14 +23,11 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      alignment: Alignment.center,
       child: Container(
-        // color: Colors.amber,
-        margin: EdgeInsets.all(8),
-        padding: EdgeInsets.all(8),
-        alignment: Alignment.center,
-        width: 100,
-        height: 100,
-        child: Text("Container는 child에 다른 위젯을 선언"),
+        color: Colors.amber,
+        margin: EdgeInsets.all(100),
+        child: Text("margin(마진)"),
       ),
     );
   }
