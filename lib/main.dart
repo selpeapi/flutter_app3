@@ -29,6 +29,7 @@ class _MainPageState extends State<MainPage> {
         padding: EdgeInsets.all(8),
         alignment: Alignment.center,
         width: 100,
+        height: 100,
         child: Text("Container는 child에 다른 위젯을 선언"),
       ),
     );
