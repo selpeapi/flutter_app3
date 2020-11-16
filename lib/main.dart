@@ -26,8 +26,8 @@ class _MainPageState extends State<MainPage> {
       alignment: Alignment.center,
       child: Container(
         color: Colors.amber,
-        padding: EdgeInsets.symmetric(vertical: 30, horizontal: 80),
-        child: Text("padding(패딩)"),
+        padding: EdgeInsets.symmetric(vertical: 50, horizontal: 100),
+        child: Text("Text(텍스트)"),
       ),
     );
   }
