@@ -27,7 +27,10 @@ class _MainPageState extends State<MainPage> {
       child: Container(
         color: Colors.amber,
         padding: EdgeInsets.symmetric(vertical: 50, horizontal: 100),
-        child: Text("Text(텍스트)"),
+        child: Text(
+          "Text(텍스트)",
+          style: TextStyle(),
+        ),
       ),
     );
   }
