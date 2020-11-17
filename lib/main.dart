@@ -29,7 +29,7 @@ class _MainPageState extends State<MainPage> {
         padding: EdgeInsets.symmetric(vertical: 50, horizontal: 100),
         child: Text(
           "Text(텍스트)",
-          style: TextStyle(),
+          style: TextStyle(fontSize: 20),
         ),
       ),
     );
