@@ -25,11 +25,16 @@ class _MainPageState extends State<MainPage> {
     return Container(
       alignment: Alignment.center,
       child: Container(
+        height: 150,
         color: Colors.amber,
-        padding: EdgeInsets.symmetric(vertical: 50, horizontal: 100),
-        child: Text(
-          "Text(텍스트)",
-          style: TextStyle(fontSize: 20),
+        padding: EdgeInsets.symmetric(vertical: 30, horizontal: 80),
+        child: Column(
+          children: [
+            Text(
+              "Column 1(콜룸 1)",
+              style: TextStyle(fontSize: 20),
+            ),
+          ],
         ),
       ),
     );
