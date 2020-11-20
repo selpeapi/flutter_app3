@@ -25,7 +25,6 @@ class _MainPageState extends State<MainPage> {
     return Container(
       alignment: Alignment.center,
       child: Container(
-        // height: 150,
         color: Colors.amber,
         padding: EdgeInsets.symmetric(vertical: 30, horizontal: 80),
         child: Column(
