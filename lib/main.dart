@@ -41,6 +41,10 @@ class _MainPageState extends State<MainPage> {
             Text(
               "Column 3(콜룸 3)",
               style: TextStyle(fontSize: 20),
+            ),
+            Text(
+              "Column 4(콜룸 4)",
+              style: TextStyle(fontSize: 20),
             )
           ],
         ),
